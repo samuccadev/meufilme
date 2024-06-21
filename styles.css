@@ -1,0 +1,13 @@
+
+
+/* Estilos personalizados */
+.card-img-top {
+    height: 300px; /* Altura da imagem dos filmes nos cartões */
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Transição suave para a escala */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse */
+}
+

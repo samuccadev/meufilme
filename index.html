@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Filmes</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- CSS customizado -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4 text-center">Lista de Filmes</h1>
+      <!-- Campo de pesquisa -->
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control"
+          id="searchInput"
+          placeholder="Pesquisar por título ou descrição"
+        />
+      </div>
+      <div class="row" id="movieList">
+        <!-- Aqui serão inseridos os cartões de filmes -->
+      </div>
+    </div>
+
+    <!-- Bootstrap JS e dependências do Popper.js e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript customizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
